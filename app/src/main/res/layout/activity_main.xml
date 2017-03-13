@@ -16,4 +16,13 @@
         android:text="Aula de Android"
         android:textSize="30sp"
         android:textAlignment="center" />
+
+    <CheckBox
+        android:text="CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:id="@+id/checkBox" />
 </RelativeLayout>
